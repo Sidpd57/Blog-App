@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+input, button, textarea, select {
+    font: inherit;
+  } 
+
+body {
+    background-color: #242424;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+li {
+    text-decoration: none;
+    color: white;    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2A2F4F;
+    color: #917FB3;
+}
+
+ul, .site-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #917FB3;
+}
+
+a:hover {
+    color: #E5BEEC;
+}
+
+/* container  */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: white; */
+    padding: 2rem 2rem 5rem;
+    text-align: center;
+}
+
+.container h1 {
+    color: whitesmoke;
+}
+
+.content {
+    width: 80%;
+    margin: 0.75rem auto;
+    border-radius: 0.95rem;
+    background-color: #E5BEEC;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.648);
+    margin-bottom: 2rem;
+    padding: 1.5rem 2rem;
+}
+
+/* all blogs  */
+
+.title {
+    font-size: 2rem;
+}
+
+.snippet {
+    font-size: 1.3rem;
+}
+
+.no-blog {
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+/* footer  */
+footer {
+    background-color: #2A2F4F;
+    color: #917FB3;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* form  */
+
+.row {
+    display: grid;
+    gap: 1rem;
+    width: 30%;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #D09CFA;
+    border-radius: 0.85rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.742);
+}
+
+.row button {
+    background-color: whitesmoke;
+    padding: 0.35rem 1rem;
+    border-radius: 1.5rem;
+}
+
+.row button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+}
+
+/* 404 page  */
+
+.not-found {
+    display: grid;
+    place-items: center;
+    gap: 2rem;
+    color: whitesmoke;
+}
+
+.not-found h1 {
+    font-size: 10rem;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.742);
+}
+
+.not-found h2 {
+    font-size: 3rem;
+}
+
+/* about page  */
+
+.about {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: whitesmoke;
+}
